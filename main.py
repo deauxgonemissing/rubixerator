@@ -5,7 +5,7 @@ def main():
     d = Dialog(dialog="dialog")
 
     while True:
-        code, text = d.Inputbox("Edge length, # of cubes:", init="3")
+        code, text = d.inputbox("Edge length, # of cubes:", init="3")
 
         if code != d.OK:
             return
